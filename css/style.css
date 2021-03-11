@@ -1,7 +1,5 @@
 body {
-    background-color: #f9f9f3;
-    /* background-color: gainsboro; */
-    /* 　　color: 文字色; */
+    background-color: #82f2ff;
     font-family: monospace;
     }
 div {
@@ -10,13 +8,19 @@ div {
 textarea {
     vertical-align:top;
 }
-#t0{
-    color:black;
-    font-size: small;
+.icon{
+    width: 50px;
+    height: 50px;
 }
+#t0{
+    color:#ad9c9c;
+    /* font-size: small; */
+    font-style: italic;
+}
+
 #title{
     color: #e4349f;
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
 }
 #say{
@@ -26,10 +30,23 @@ textarea {
     align-items: flex-start;
 }
 #output {
-    background-color: #ecffe7;
+    background-color: #f5b04b;
     border-radius: 1vh;
     overflow: auto;
 }
 #day{
     text-align: right;
+}
+#name{
+    color: white;
+}
+#upload{
+    color: greenyellow;
+    background-color: gray;
+    border-radius: 10vh;
+}
+#send{
+    color:rgb(235, 220, 11);
+    background-color: gray;
+    border-radius: 10vh;  
 }

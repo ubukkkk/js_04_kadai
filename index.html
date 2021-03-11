@@ -27,12 +27,27 @@
     <div id="t0">気軽に話そ！</div>
     <br>
     <div id="title">シンプルなチャットルーム</div>
-    <br>
+    <br><br>
+
+    <!-- アイコン -->
+    <div id="ic">アイコン選択(クリックすると画像を付けられます)</div>
+    <div>
+        <img class="icon" data-img="0" src="..//js_04_kadai/img/cure_blossom.png" alt="">
+        <img class="icon" data-img="1" src="..//js_04_kadai/img/cure_happy.png" alt="">
+        <img class="icon" data-img="2" src="..//js_04_kadai/img/cure_marin.png" alt="">
+        <img class="icon" data-img="3" src="..//js_04_kadai/img/cure_beauty.png" alt="">
+        <img class="icon" data-img="4" src="..//js_04_kadai/img/cure_sunshine.png" alt="">
+        <img class="icon" data-img="5" src="..//js_04_kadai/img/cure_peace.png" alt="">
+    </div>
 
     <!-- コンテンツ表示画面 -->
     <div>
-        <div>名前<input type="text" id="username"></div>
+        <div id="name">お名前<input type="text" id="username"></div>
         <div>
+            <!-- 画像アップロード -->
+            <input type="file" id="file" />
+            <button id="upload" type="button">アップロード(調整中)</button>
+            <br>
             <!-- メッセージ入力欄 -->
             <textarea id="text" rows="1" cols="20"></textarea>
             <!-- 送信欄 -->
