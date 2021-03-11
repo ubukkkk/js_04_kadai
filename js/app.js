@@ -9,7 +9,6 @@ var firebaseConfig = {
     databaseURL: "",
 };
 
-
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
