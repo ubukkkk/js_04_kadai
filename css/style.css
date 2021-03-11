@@ -28,6 +28,7 @@ textarea {
 #output {
     background-color: #ecffe7;
     border-radius: 1vh;
+    overflow: auto;
 }
 #day{
     text-align: right;

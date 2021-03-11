@@ -1,12 +1,11 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: "",
-    databaseURL: "",
+    apiKey: "AIzaSyCoV80M7MILf76S-BSj1s1U87Bt5Jju9F8",
+    authDomain: "kadai02-57add.firebaseapp.com",
+    projectId: "kadai02-57add",
+    storageBucket: "kadai02-57add.appspot.com",
+    messagingSenderId: "24651552622",
+    appId: "1:24651552622:web:076eb2502b2da52c12d37f"
  };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
@@ -35,7 +34,7 @@ $("#text").on("keydown",function(event){
         newPostRef.push({
         username: $("#username").val(),
         text: $("#text").val(),
-        // date: now.getFullYear() + "-" + now.getMonth() + 1 + "-" + now.getDate() + " " + now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds()
+        // date: now.getFullYear() + "-" + mon + "-" + now.getDate() + " " + now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds()
         });
     $("#text").val("");
     }
