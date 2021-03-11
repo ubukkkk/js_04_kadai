@@ -62,7 +62,7 @@ newPostRef.on("child_added", function(data){
     str += '<br><div id="text" style="color:#8276ff">'+v.text+'</div>';
     str += '<br><br><div id="day">'+v.date+'</div><hr>';
     $("#output").append(str);
-    
+});
 
 // 画像投稿(未完成)
 // document.getElementById('upload').addEventListener('click', function() {
@@ -85,4 +85,3 @@ newPostRef.on("child_added", function(data){
 //     alert('画像を削除しました');
 //     });
 //     });
-});
